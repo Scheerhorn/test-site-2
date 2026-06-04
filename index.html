@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jackson Community Grocery Co-op</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="container">
+        <div class="logo">Jackson Co-op</div>
+
+        <ul>
+            <li><a href="#mission">Mission</a></li>
+            <li><a href="#why">Why a Co-op?</a></li>
+            <li><a href="#involved">Get Involved</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="overlay">
+        <div class="hero-content">
+            <h1>A Grocery Store Owned By Jackson.</h1>
+
+            <p>
+                Imagine a community-owned grocery store that supports local farmers,
+                keeps dollars local, and gives every member a voice.
+            </p>
+
+            <a href="#involved" class="btn">
+                Join the Movement
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="mission" class="section">
+    <div class="container">
+
+        <h2>Our Vision</h2>
+
+        <p class="lead">
+            We're building support for a community-owned grocery cooperative in Jackson,
+            Mississippi. A place where neighbors shape what goes on the shelves,
+            support local producers, and invest in healthier food access.
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Community Owned</h3>
+                <p>
+                    Decisions are made by members, not distant shareholders.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Local First</h3>
+                <p>
+                    Support Mississippi farmers, makers, and food entrepreneurs.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Stronger Together</h3>
+                <p>
+                    Create jobs, improve food access, and keep wealth local.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section id="why" class="section green">
+
+    <div class="container">
+
+        <h2>Why a Grocery Co-op?</h2>
+
+        <div class="stats">
+
+            <div class="stat">
+                <span>100%</span>
+                <p>Community Focused</p>
+            </div>
+
+            <div class="stat">
+                <span>1</span>
+                <p>Member = One Vote</p>
+            </div>
+
+            <div class="stat">
+                <span>∞</span>
+                <p>Possibilities for Jackson</p>
+            </div>
+
+        </div>
+
+        <p class="center">
+            We believe Jackson deserves a grocery store that reflects the values,
+            needs, and ideas of the people who live here.
+        </p>
+
+    </div>
+
+</section>
+
+<section class="section">
+
+    <div class="container">
+
+        <h2>Community Goal</h2>
+
+        <div class="progress-card">
+
+            <h3>Founding Supporters</h3>
+
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+
+            <p id="progressText">
+                138 of 500 supporters joined
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="involved" class="section dark">
+
+    <div class="container">
+
+        <h2>Get Involved</h2>
+
+        <p class="center">
+            Join our interest list and help shape the future grocery co-op.
+        </p>
+
+        <form id="interestForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Email Address"
+                required
+            >
+
+            <select id="interest">
+
+                <option value="">
+                    How would you like to help?
+                </option>
+
+                <option>
+                    Founding Member
+                </option>
+
+                <option>
+                    Volunteer
+                </option>
+
+                <option>
+                    Farmer / Producer
+                </option>
+
+                <option>
+                    Investor
+                </option>
+
+                <option>
+                    Community Partner
+                </option>
+
+            </select>
+
+            <button type="submit">
+                Count Me In
+            </button>
+
+        </form>
+
+        <div id="message"></div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <div class="container">
+
+        <h3>Jackson Community Grocery Co-op</h3>
+
+        <p>
+            Building a healthier, stronger, locally-owned future.
+        </p>
+
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
